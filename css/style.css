@@ -67,23 +67,51 @@ li{
     margin: 25px auto;
     position: relative;
 }
-.user-img{
+/* .user-img{
     margin: 0;
     position: absolute;
     top: 15px;
     left: 50%;
     transform: translate(-50%);
+} */
+.user-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
 input{
     border: none;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
     background-color: gray;
     border-bottom: solid 3px #fff;
-    width: 100px;
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    cursor: pointer;
 }
 .inside-input{
     display: flex;
     flex-direction: column;
 }
 ::placeholder{
+    font-size: 20px;
     color: #fff;
+}
+.inside-input button{
+    display: block;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    color: #fff;
+    background-color: rgb(226, 17, 80);
+    border: none;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
