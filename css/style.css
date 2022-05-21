@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(40, 39, 39);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container{
+    width: 1400px;
+    margin: auto;
+}
+.logo h1{
+    color: rgb(226, 17, 80);
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+li{
+    padding: 15px 15px;
+
+}
+
+.orive{
+    display: flex;
+}
+.left{
+    width: 800px;
+}
+.right{
+    width: 600px;
+    height: 400px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.left h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.left p{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    padding-right: 50px;
+}
+.inside-box{
+    width: 550px;
+    height: 350px;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    margin: 25px;
+    position: relative;
+}
+.user-img{
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%);
+}
+input{
+    border: none;
+    background-color: gray;
+    border-bottom: solid 3px #fff;
+    width: 100px;
+}
+.inside-input{
+    display: flex;
+    flex-direction: column;
+}
+::placeholder{
+    color: #fff;
+}
